@@ -9,5 +9,7 @@ in your package. The follow test is all automatically generated using sphinx's
 ``autodoc`` extension.
 
 .. automodule:: calcs
-
 .. autofunction:: get_lift
+
+.. automodule:: newFunction
+.. autofunction:: donothing
