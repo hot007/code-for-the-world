@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>API Documentation &mdash; Code for the World 1.0 documentation</title>
+  <title>newFunction &mdash; Code for the World 1.0 documentation</title>
   
 
   
@@ -27,9 +27,7 @@
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Loading and plotting airfoils" href="../examples/example_1.html" />
-    <link rel="prev" title="Installation" href="installation.html" /> 
+    <link rel="search" title="Search" href="../search.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -93,9 +91,9 @@
 <li class="toctree-l1"><a class="reference internal" href="../repo_setup/configuring_travis.html">Configuring Travis CI</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Demo documentation</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">API Documentation</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../demo/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../demo/api.html">API Documentation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Demo examples</span></p>
 <ul>
@@ -156,14 +154,12 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>API Documentation</li>
+          <li><a href="index.html">Module code</a> &raquo;</li>
+        
+      <li>newFunction</li>
     
     
       <li class="wy-breadcrumbs-aside">
-        
-            
-            <a href="../_sources/demo/api.rst.txt" rel="nofollow"> View page source</a>
-          
         
       </li>
     
@@ -175,60 +171,23 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="api-documentation">
-<span id="api"></span><h1>API Documentation<a class="headerlink" href="#api-documentation" title="Permalink to this headline">¶</a></h1>
-<p>It can be nice to print information on the most important classes or functions
-in your package. The follow test is all automatically generated using sphinx’s
-<code class="docutils literal notranslate"><span class="pre">autodoc</span></code> extension.</p>
-<span class="target" id="module-calcs"></span><p>Calculations with airfoils</p>
-<dl class="function">
-<dt id="calcs.get_lift">
-<code class="descclassname">calcs.</code><code class="descname">get_lift</code><span class="sig-paren">(</span><em>air_df</em>, <em>wsp</em>, <em>rho=1.225</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/calcs.html#get_lift"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#calcs.get_lift" title="Permalink to this definition">¶</a></dt>
-<dd><p>Determine the lift of an airfoil</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first last docutils">
-<dt><strong>air_df</strong> <span class="classifier-delimiter">:</span> <span class="classifier">pd.Dataframe</span></dt>
-<dd><p class="first last">Pandas Dataframe containing x- and y-coordinates of airfoil data.</p>
-</dd>
-<dt><strong>wsp</strong> <span class="classifier-delimiter">:</span> <span class="classifier">int, float</span></dt>
-<dd><p class="first last">Velocity of air..</p>
-</dd>
-<dt><strong>rho</strong> <span class="classifier-delimiter">:</span> <span class="classifier">int, float</span></dt>
-<dd><p class="first last">Density of air.</p>
-</dd>
-</dl>
-</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
+  <h1>Source code for newFunction</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;This is a docstring</span>
+<span class="sd">&quot;&quot;&quot;</span>
 
-<span class="target" id="module-newFunction"></span><p>This is a docstring</p>
-<dl class="function">
-<dt id="newFunction.donothing">
-<code class="descclassname">newFunction.</code><code class="descname">donothing</code><span class="sig-paren">(</span><em>air_df</em>, <em>wsp</em>, <em>rho=1.225</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/newFunction.html#donothing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#newFunction.donothing" title="Permalink to this definition">¶</a></dt>
-<dd><p>This function does nothing.</p>
-</dd></dl>
 
-</div>
-
+<div class="viewcode-block" id="donothing"><a class="viewcode-back" href="../demo/api.html#newFunction.donothing">[docs]</a><span class="k">def</span> <span class="nf">donothing</span><span class="p">(</span><span class="n">air_df</span><span class="p">,</span> <span class="n">wsp</span><span class="p">,</span> <span class="n">rho</span><span class="o">=</span><span class="mf">1.225</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This function does nothing.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span></div>
+</pre></div>
 
            </div>
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../examples/example_1.html" class="btn btn-neutral float-right" title="Loading and plotting airfoils" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="installation.html" class="btn btn-neutral" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
